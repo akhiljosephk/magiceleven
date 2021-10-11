@@ -11,7 +11,7 @@ h1{
 }
 
 .container-fluid{
-    padding: 2% 3% 1%;
+    padding: 1% 3% 1%;
 }
 
 .navbar-brand{
@@ -38,7 +38,7 @@ font-weight: bold;
 }
 
 #features{
-    padding: 7% 1%;
+    
     background-color: #fff;
     position: relative;
 }
@@ -113,13 +113,17 @@ i:hover{
     z-index: 2;
 }
 .gal-img{
-    width: 355px;
+    width: 300px;
     height: 400px;
+  
+   
 }
 
+
+
 h2{
-    padding-left: 10%;
-    padding-top: 10%;
+    padding-left: 5%;
+    padding-top: 5%;
     color: #003da6;
 }
 .testimonial-text{
@@ -218,7 +222,7 @@ img{
 }
 
 .boxteam img{
-    width: 130px;
+    width: 10px;
     border-radius: 100px;
     padding: 5px;
     margin-bottom: -10px;
@@ -266,4 +270,31 @@ margin-bottom: 0;
     .team-box{
         display: block;
     }
+
+   
+}
+
+
+.test{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.testbox{
+    
+    /* background: orange; */
+    
+    margin-left: 60px ;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+
+.testbox:hover{
+    transform: scale(1.3);
+   /* background: #ff800a; */
+   background: #fff;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
 }
