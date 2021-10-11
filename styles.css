@@ -1,0 +1,300 @@
+#title{
+    background-color: #003da6;
+    color: white;
+}
+
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    line-height: 1.5;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.container-fluid{
+    padding: 1% 3% 1%;
+}
+
+.navbar-brand{
+font-family: 'Ubuntu';
+font-size: 2.5rem;
+font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size:1.2rem;
+    font-family: 'Montserrat';
+}
+
+
+.title-img{
+    width: 200%;
+    left:10%;
+    right:10%;
+
+}
+
+#features{
+    
+    background-color: #fff;
+    position: relative;
+}
+
+.carousel-img{
+    border-radius: 100%;
+    width: 17%;
+    margin: 20px;
+}
+
+
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+#testimonials{
+
+    text-align: center;
+    background-color: #003da6;
+    color: #fff;
+}
+
+.contact-form{
+
+padding:7%;
+}
+
+
+#footer{
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+    
+}
+
+.social{
+    color: #000;
+    /* padding-right:1.5%; */
+    position:relative;
+    /* bottom:10px; */
+    margin: 20px 10px;
+
+}
+
+
+i:hover{
+    color: #003da6;
+}
+
+.container{
+    width: 90%;
+    padding: 10px;
+    background: #ddd;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    width: 700px;
+    height: 400px;
+    background: orange;
+    margin: 0px 10px;
+    transition: 1s;
+}
+
+.box:hover{
+    transform: scale(1.3);
+    background: #ff800a;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+.gal-img{
+    width: 300px;
+    height: 400px;
+  
+   
+}
+
+
+
+h2{
+    padding-left: 5%;
+    padding-top: 5%;
+    color: #003da6;
+}
+.testimonial-text{
+    color: #fff;
+}
+
+.event-container {
+    font-family: "Roboto",sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.event-container .event { 
+    box-shadow: 0 4px 16px -8px rgba(0, 0,0, 0.4);
+    display: flex;
+    border-radius: 8px;
+    margin: 32px 0;
+}
+
+.event .event-left{
+    background: #222;
+    min-width: 82px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    padding: 8px 48px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+}
+.event .event-left .date{
+    font-size: 56px;
+}
+
+.event .event-left .month{
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.event .event-right{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 24px;
+}
+.event .event-right h3.event-title{
+    font-size: 24px;
+    margin: 24px 0 10px 0;
+    color:#218bbb;
+    text-transform: uppercase;
+}
+
+.event .event-right .event-timing{
+    display: flex;
+   background: #fff8ba;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   padding: 8px;
+   border-radius: 16px;
+   margin: 24px 0;
+   font-size: 14px;
+}
+
+.event .event-right .event-timing
+img{
+    height: 20px;
+    padding-right: 8px;
+}
+
+.team-area{
+    display: grid;
+    justify-content: center;
+}
+
+.section-title h1{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.team-box{
+    display: inline-flex;
+}
+
+.boxteam{
+    width: 230px;
+    margin: 20px;
+    padding: 30px 10px;
+    background: #ececec;
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 10px 10px 15px #c7c4c4 ,-10px -10px 15px #fff;
+}
+
+.boxteam img{
+    width: 10px;
+    border-radius: 100px;
+    padding: 5px;
+    margin-bottom: -10px;
+    border: 2px solid #dee2e6;
+    backface-visibility: hidden;
+    transition: all .5s ease-in-out;
+}
+
+.boxteam:hover img{
+    transform: scale(1.2);
+}
+
+.boxteam h2{
+font-size: 20px;
+line-height: 1.6;
+margin-bottom: 0;
+}
+.boxteam span{
+    font-size: 14px;
+    display: block;
+    font-style: italic;
+    margin-top: 25px;
+}
+
+
+@media (max-width:550px){
+    .event{
+        flex-direction: column;
+    }
+    .event .event-left{
+        padding: 0;
+        border-radius: 8px 8px 0 0;
+    }
+
+    .event .event-left .event-date .date,
+    .event .event-left .event-date .month{
+        display: inline-block;
+        font-size: 24px;
+    }
+
+    .event .event-left .event-date{
+        padding: 10px 0;
+    }
+
+    .team-box{
+        display: block;
+    }
+
+   
+}
+
+
+.test{
+    width: 100%;
+    height: 100%;
+    
+   
+}
+
+.testbox{
+    
+    /* background: orange; */
+    
+    margin-left: 60px ;
+    transition: 1s;
+    margin-bottom: 50px;
+}
+
+.testbox:hover{
+    transform: scale(1.3);
+   /* background: #ff800a; */
+   background: #fff;
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
