@@ -275,6 +275,10 @@ margin-bottom: 0;
     .team-box{
         display: block;
     }
+    
+    .team-area{
+        padding-left: 10px;
+    }
 
    
 }
