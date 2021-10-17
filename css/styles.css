@@ -312,7 +312,10 @@ margin-bottom: 0;
     }
     .sponsor{
         display: block;
-        padding-left: 50px;
+        
+    }
+    .press-logo{
+    padding-left: 20px;
     }
 
     .h2{
